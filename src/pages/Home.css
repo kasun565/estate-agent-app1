@@ -1,0 +1,30 @@
+/* HOME PAGE LAYOUT */
+.home-layout {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  min-height: calc(100vh - 60px);
+}
+
+/* MAIN CONTENT */
+.main-content {
+  padding: 0 1.5rem 2rem;
+}
+
+/* HERO SECTION */
+.hero-section {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+}
+
