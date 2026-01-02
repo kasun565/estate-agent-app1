@@ -1,0 +1,86 @@
+/* PROPERTY CARD CONTAINER */
+.property-card {
+  position: relative;               /* Required for fav button positioning */
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* HOVER EFFECT */
+.property-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* PROPERTY IMAGE */
+.property-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* PROPERTY INFO */
+.property-info {
+  padding: 1.5rem;
+  text-align: left;
+}
+
+.property-info h3 {
+  margin-bottom: 0.5rem;
+  color: #2c3e50;
+  font-size: 1.25rem;
+}
+
+/* TEXT DETAILS */
+.location,
+.bedrooms {
+  color: #7f8c8d;
+  margin: 0.25rem 0;
+  font-size: 0.9rem;
+}
+
+/* PRICE */
+.price {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #3498db;
+  margin: 1rem 0;
+}
+
+/* VIEW DETAILS BUTTON */
+.view-details-btn {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.view-details-btn:hover {
+  background-color: #2980b9;
+}
+
+/* FAVOURITE BUTTON */
+.fav-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 1.6rem;
+  cursor: pointer;
+  z-index: 2;
+  transition: transform 0.2s ease;
+}
+
+.fav-btn:hover {
+  transform: scale(1.2);
+}
