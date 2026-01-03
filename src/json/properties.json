@@ -44,4 +44,70 @@
         "year": 2022
       }
     },
+    {
+      "id": "prop3",
+      "type": "Apartment",
+      "bedrooms": 1,
+      "price": 275000,
+      "tenure": "Leasehold",
+      "description": "Modern one bedroom apartment ideal for first time buyers or investors, located close to transport links and local amenities.",
+      "location": "High Street, Bromley BR1",
+      "picture": [
+        "https://images.unsplash.com/photo-1554995207-c18c203602cb",
+        "https://images.unsplash.com/photo-1554995207-c18c203602cb",
+        "https://images.unsplash.com/photo-1554995207-c18c203602cb",
+        "https://images.unsplash.com/photo-1554995207-c18c203602cb",
+        "https://images.unsplash.com/photo-1554995207-c18c203602cb",
+        "https://images.unsplash.com/photo-1554995207-c18c203602cb"
+      ],
+      "added": {
+        "month": "August",
+        "day": 22,
+        "year": 2022
+      }
+    },
+    {
+      "id": "prop4",
+      "type": "Bungalow",
+      "bedrooms": 2,
+      "price": 495000,
+      "tenure": "Freehold",
+      "description": "Well maintained two bedroom bungalow with spacious garden, driveway parking and excellent potential for extension.",
+      "location": "Chislehurst Road, Kent BR7",
+      "picture": [
+        "https://images.unsplash.com/photo-1605276373954-0c4a0dac5b12",
+        "https://images.unsplash.com/photo-1600585152915-d208bec867a1",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+        "https://images.unsplash.com/photo-1599423300746-b62533397364",
+        "https://images.unsplash.com/photo-1568605114967-8130f3a36994",
+        "https://images.unsplash.com/photo-1570129477492-45c003edd2be"
+      ],
+      "added": {
+        "month": "July",
+        "day": 5,
+        "year": 2022
+      }
+    },
+    {
+      "id": "prop5",
+      "type": "House",
+      "bedrooms": 4,
+      "price": 925000,
+      "tenure": "Freehold",
+      "description": "Spacious four bedroom detached house offering luxury living with large garden, garage and modern interiors throughout.",
+      "location": "Farnborough Village BR6",
+      "picture": [
+        "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde",
+        "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde",
+        "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde",
+        "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde",
+        "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde",
+        "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde"
+      ],
+      "added": {
+        "month": "June",
+        "day": 18,
+        "year": 2022
+      }
+    },
 }
