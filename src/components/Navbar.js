@@ -1,10 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { useBooking } from '../context/BookingContext';
 import './Navbar.css';
 
 const Navbar = () => {
-  const { cart } = useBooking();
 
   return (
     <nav className="navbar">

@@ -110,4 +110,49 @@
         "year": 2022
       }
     },
+    {
+      "id": "prop6",
+      "type": "Flat",
+      "bedrooms": 1,
+      "price": 225000,
+      "tenure": "Leasehold",
+      "description": "Compact and modern one bedroom flat ideal for city professionals, featuring open plan living and secure entry.",
+      "location": "Lewisham High Street SE13",
+      "picture": [
+        "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+        "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2",
+        "https://images.unsplash.com/photo-1560448075-bb4d3b17f8c6",
+        "https://images.unsplash.com/photo-1560448205-4d9b3e6bb6db",
+        "https://images.unsplash.com/photo-1493809842364-78817add7ffb",
+        "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688"
+      ],
+      "added": {
+        "month": "May",
+        "day": 2,
+        "year": 2022
+      }
+    },
+    {
+      "id": "prop7",
+      "type": "House",
+      "bedrooms": 5,
+      "price": 1200000,
+      "tenure": "Freehold",
+      "description": "Executive five bedroom family home offering premium finishes, multiple reception rooms and landscaped gardens.",
+      "location": "Sevenoaks Road, Kent TN13",
+      "picture": [
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+        "https://images.unsplash.com/photo-1605276373954-0c4a0dac5b12",
+        "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde",
+        "https://images.unsplash.com/photo-1568605114967-8130f3a36994",
+        "https://images.unsplash.com/photo-1599423300746-b62533397364",
+        "https://images.unsplash.com/photo-1570129477492-45c003edd2be"
+      ],
+      "added": {
+        "month": "April",
+        "day": 10,
+        "year": 2022
+      }
+    }
+  ]
 }

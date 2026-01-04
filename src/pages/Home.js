@@ -34,7 +34,7 @@ const Home = () => {
     setFilteredProperties(filtered);
   };
 
-  // ✅ ADD TO FAVOURITES (NO DUPLICATES)
+  //  ADD TO FAVOURITES (NO DUPLICATES)
   const addToFavourites = (property) => {
     if (!favourites.find(f => f.id === property.id)) {
       setFavourites([...favourites, property]);
@@ -72,7 +72,7 @@ const Home = () => {
         />
       </div>
 
-      {/* ⭐ FAVOURITES SIDE PANEL */}
+      {/*  FAVOURITES SIDE PANEL */}
       <FavouritesList
         favourites={favourites}
         onDropFavourite={addToFavourites}
